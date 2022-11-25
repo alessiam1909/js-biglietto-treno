@@ -3,7 +3,7 @@ PROBLEMA: Il programma dovrà chiedere all'utente il numero di chilometri che vu
 RISOLUZIONE: 
 1- Chiedo all'utente il numero di chilometri che deve percorrere
 2- Chiedo all'utente la sua età
-3- Creo una variabile dove il costo in km equivale a 0.21 euro per chilometro
+3- Creo una variabile per contenere il prezzo totale non ancora scontato
 4- Creo una condizione secondo la quale l'utente che ha meno di 18 anni ottiene uno sconto del 20% (if)
 5- Creo una condizione secondo la quale un utente che ha più di 65 anni ottiene uno sconto del 40% (else if)
 6- Se non si verificano le condizioni l'utente non avrà nessuno sconto (else)

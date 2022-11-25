@@ -19,11 +19,26 @@ if(eta < 18){
     let prezzoScontatoMinorenni = "Il costo del biglietto è: "+(prezzoNonScontato * 0.8).toFixed(2)+"€";
     console.log(prezzoScontatoMinorenni);
 
+    document.getElementById("prezzo-biglietto").innerHTML = `${prezzoScontatoMinorenni}`;
+
 }else if(eta > 65){
     let prezzoScontatoSenior = "Il costo del biglietto  è: "+(prezzoNonScontato * 0.6).toFixed(2)+"€";
     console.log(prezzoScontatoSenior);
 
+    document.getElementById("prezzo-biglietto").innerHTML = `${prezzoScontatoSenior}`;
+
 }else{
     let prezzoFinale = "Il costo del biglietto è: "+prezzoNonScontato+"€";
     console.log(prezzoFinale);
+
+    document.getElementById("prezzo-biglietto").innerHTML = `${prezzoFinale}`;
 };
+
+// definisco le variabili dei prezzi scontati e non
+
+let prezzoScontatoSenior = (prezzoNonScontato * 0.6).toFixed(2);
+let prezzoScontatoMinorenni = (prezzoNonScontato * 0.8).toFixed(2);
+let prezzoFinale = prezzoNonScontato;
+
+
+// Stampo nella pagina il prezzo del biglietto dell'utente nelle varie condizioni in base all'età

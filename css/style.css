@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(142, 195, 176) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenitore{
+    width: 400px;
+    height: 550px;
+    background-color: rgb(222, 245, 229);
+    border-top: 5px dashed rgb(158, 213, 197);
+    border-bottom: 5px dashed rgb(158, 213, 197);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(142, 195, 176);
+}
+
+h1{
+    padding: 0 20px;
+}
